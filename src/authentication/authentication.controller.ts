@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import { AuthenticationService } from './authentication.service';
 import { CreateUserDto } from '../dto/CreateUserDto';
-import { User } from '../schemas/user.schema';
+import { User } from 'src/schemas/user.schema';
 
 @Controller('authentication')
 export class AuthenticationController {
